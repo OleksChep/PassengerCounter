@@ -2,7 +2,7 @@ body {
     background-image: url("king-cross.jpg");
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
+    font-size: 
     text-align: right;
     margin: 1em;
     height: 100vh;
@@ -24,6 +24,7 @@ body {
     color: darkgreen;
   }
   .container {
+    border-radius: 20px;
  display: flex;
  float: right;
  align-items: center;
