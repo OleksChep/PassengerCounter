@@ -12,22 +12,27 @@ body {
     background-color: darkred;
     padding: 15px;
     border-radius: 10px;
-    margin: 2px;
+    margin: 3px;
     color: white;
     width: 10em;
+    
   }
   h1 {
+    margin: 0;
+    padding: .2em 1em;
     color: darkgreen;
   }
   h2 {
+    margin: 0;
     font-size: 3em;
     color: darkgreen;
   }
   .container {
     border-radius: 20px;
- display: flex;
- float: right;
- align-items: center;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: center;
     height: auto;
     width:fit-content;
     background-color: lightblue;
@@ -35,5 +40,5 @@ body {
   }
   #save-el {
     font-weight: 600;
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
