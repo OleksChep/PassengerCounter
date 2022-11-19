@@ -1,0 +1,38 @@
+body {
+    background-image: url("king-cross.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    text-align: right;
+    margin: 1em;
+    height: 100vh;
+   
+  }
+  button {
+    background-color: darkred;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 2px;
+    color: white;
+    width: 10em;
+  }
+  h1 {
+    color: darkgreen;
+  }
+  h2 {
+    font-size: 3em;
+    color: darkgreen;
+  }
+  .container {
+ display: flex;
+ float: right;
+ align-items: center;
+    height: auto;
+    width:fit-content;
+    background-color: lightblue;
+    opacity: 0.7;
+  }
+  #save-el {
+    font-weight: 600;
+    font-size: 1.4em;
+  }
